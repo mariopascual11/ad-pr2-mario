@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    color: blue; /* Cambia el color del texto a azul */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center; /* Centra el contenido horizontalmente */
+    justify-content: center; /* Centra el contenido verticalmente */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: blue; /* Aplica color azul a los encabezados */
+}
+
+.sidebar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; /* Centra los botones */
+    gap: 20px; /* Añade espacio entre los botones */
+}
+
+.sidebar button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sidebar button.active {
+    background: #0056b3;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center; /* Centra los elementos en el eje horizontal */
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Centra los botones de control */
+}
+
+.controls button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 14px;
+    resize: none;
+    background-color: #f8f8f8;
+    color: blue; /* Aplica color azul al texto del área */
+}
+
+#send {
+    padding: 10px 20px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center; /* Alinea el botón en el centro */
+}
